@@ -1,9 +1,9 @@
 <?php
 
 
-namespace MinhD\SolrClient\SolrClientTrait;
+namespace Lionear\SolrClient\SolrClientTrait;
 
-use MinhD\SolrClient\Admin\SchemaManager;
+use Lionear\SolrClient\Admin\SchemaManager;
 
 trait ManageSchemaTrait
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace MinhD\SolrClient\SolrClientTrait;
+namespace Lionear\SolrClient\SolrClientTrait;
 
 // https://cwiki.apache.org/confluence/display/solr/Collections+API#CollectionsAPI-api2
-use MinhD\SolrClient\Admin\CollectionManager;
+use Lionear\SolrClient\Admin\CollectionManager;
 
 trait ManageCollectionTrait
 {

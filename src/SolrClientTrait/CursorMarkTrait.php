@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MinhD\SolrClient\SolrClientTrait;
+namespace Lionear\SolrClient\SolrClientTrait;
 
 trait CursorMarkTrait
 {

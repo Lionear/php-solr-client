@@ -1,8 +1,8 @@
 <?php
 
-namespace MinhD\SolrClient\SolrClientTrait;
+namespace Lionear\SolrClient\SolrClientTrait;
 
-use MinhD\SolrClient\SolrDocument;
+use Lionear\SolrClient\SolrDocument;
 
 /**
  * Class SolrClientCRUDTrait

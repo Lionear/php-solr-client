@@ -1,9 +1,9 @@
 <?php
 
 
-namespace MinhD\SolrClient\SolrClientTrait;
+namespace Lionear\SolrClient\SolrClientTrait;
 
-use MinhD\SolrClient\SolrSearchResult;
+use Lionear\SolrClient\SolrSearchResult;
 
 trait SearchTrait
 {

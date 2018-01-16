@@ -1,6 +1,8 @@
 # PHP Solr Client
 This is a PHP library designed to simplify interaction with a SOLR server
 
+This fork has been made compatible with Symfony 4, release version 1.0
+
 ## Installation
 The prefered method is via composer
 ```
