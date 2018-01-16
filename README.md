@@ -1,12 +1,10 @@
-[![Build Status](https://travis-ci.org/minhd/php-solr-client.svg?branch=master)](https://travis-ci.org/minhd/php-solr-client)
-
 # PHP Solr Client
 This is a PHP library designed to simplify interaction with a SOLR server
 
 ## Installation
 The prefered method is via composer
 ```
-composer require minhd\php-solr-client
+composer require lionear\php-solr-client
 ```
 Be sure to include the autoloader
 ```
