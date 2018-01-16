@@ -1,25 +1,23 @@
 {
-    "name": "minhd/solr-client",
+    "name": "Lionear/solr-client",
     "description": "A PHP Solr Client",
     "keywords": [
         "Generator",
         "PSR"
     ],
-    "homepage": "https://github.com/minhd/phpgen",
+    "homepage": "https://www.bonkestoter.com",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Minh Duc Nguyen",
-            "email": "dekarvn@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Rick Bonkestoter",
+        "email": "rick@bonkestoter.com"
+    }],
     "require": {
-        "php": "~5.5|~7.0",
+        "php": "~7.1",
         "guzzlehttp/guzzle": "^6.2",
-        "symfony/console": "^3.1",
-        "symfony/filesystem": "^3.1",
-        "symfony/stopwatch": "^3.1",
-        "symfony/finder": "^3.1",
+        "symfony/console": "^4",
+        "symfony/filesystem": "^4",
+        "symfony/stopwatch": "^4",
+        "symfony/finder": "^4",
         "illuminate/support": "^5.2"
     },
     "require-dev": {
@@ -29,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MinhD\\SolrClient\\": "src/"
+            "Lionear\\SolrClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MinhD\\SolrClient\\": [
+            "Lionear\\SolrClient\\": [
                 "tests/"
             ]
         }
@@ -69,7 +67,7 @@
         "solr-start": [
             "solr-5.4.0/bin/solr start -p 8983 -c"
         ],
-        "solr-remove":[
+        "solr-remove": [
             "rm -f solr-*.tgz",
             "rm -rf solr-*"
         ],

@@ -1,15 +1,15 @@
 <?php
 
-namespace MinhD\SolrClient;
+namespace Lionear\SolrClient;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7;
-use MinhD\SolrClient\SolrClientTrait\CRUDTrait;
-use MinhD\SolrClient\SolrClientTrait\CursorMarkTrait;
-use MinhD\SolrClient\SolrClientTrait\ManageCollectionTrait;
-use MinhD\SolrClient\SolrClientTrait\ManageSchemaTrait;
-use MinhD\SolrClient\SolrClientTrait\SearchTrait;
+use Lionear\SolrClient\SolrClientTrait\CRUDTrait;
+use Lionear\SolrClient\SolrClientTrait\CursorMarkTrait;
+use Lionear\SolrClient\SolrClientTrait\ManageCollectionTrait;
+use Lionear\SolrClient\SolrClientTrait\ManageSchemaTrait;
+use Lionear\SolrClient\SolrClientTrait\SearchTrait;
 
 class SolrClient
 {

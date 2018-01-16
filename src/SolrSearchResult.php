@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MinhD\SolrClient;
+namespace Lionear\SolrClient;
 
 class SolrSearchResult
 {

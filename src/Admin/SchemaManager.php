@@ -1,9 +1,9 @@
 <?php
 
 
-namespace MinhD\SolrClient\Admin;
+namespace Lionear\SolrClient\Admin;
 
-use MinhD\SolrClient\SolrManager;
+use Lionear\SolrClient\SolrManager;
 
 class SchemaManager extends SolrManager
 {

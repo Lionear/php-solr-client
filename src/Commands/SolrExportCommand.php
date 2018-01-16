@@ -1,8 +1,8 @@
 <?php
 
-namespace MinhD\SolrClient\Commands;
+namespace Lionear\SolrClient\Commands;
 
-use MinhD\SolrClient\SolrClient;
+use Lionear\SolrClient\SolrClient;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Input\InputDefinition;
